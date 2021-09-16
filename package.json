@@ -6,7 +6,9 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "serve": "concurrently \"yarn dev\" \"yarn mock\"",
+    "mock": "json-server -w db.json -p 4200 -d 450"
   },
   "dependencies": {
     "next": "11.1.2",
@@ -15,6 +17,7 @@
   },
   "devDependencies": {
     "eslint": "7.32.0",
-    "eslint-config-next": "11.1.2"
+    "eslint-config-next": "11.1.2",
+    "concurrently": "1.22.1"
   }
 }

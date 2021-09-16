@@ -1,0 +1,13 @@
+{
+    "posts": [
+        {
+           "id": 1, "title": "JavaScript" , "body": "Post1"
+        },
+        {
+           "id": 2, "title": "Python" , "body": "Post2"
+        },
+        {
+           "id": 3, "title": "C#" , "body": "Post3"
+        }
+    ]
+}
